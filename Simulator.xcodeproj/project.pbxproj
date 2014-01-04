@@ -18,6 +18,7 @@
 		392DF1A218783CD5005EF0E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392DF18118783CD5005EF0E9 /* Cocoa.framework */; };
 		392DF1AA18783CD5005EF0E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 392DF1A818783CD5005EF0E9 /* InfoPlist.strings */; };
 		392DF1AC18783CD5005EF0E9 /* SimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 392DF1AB18783CD5005EF0E9 /* SimulatorTests.m */; };
+		392DF1B71878C013005EF0E9 /* CSDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 392DF1B61878C013005EF0E9 /* CSDataLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		392DF1A718783CD5005EF0E9 /* SimulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatorTests-Info.plist"; sourceTree = "<group>"; };
 		392DF1A918783CD5005EF0E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		392DF1AB18783CD5005EF0E9 /* SimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulatorTests.m; sourceTree = "<group>"; };
+		392DF1B51878C013005EF0E9 /* CSDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDataLoader.h; sourceTree = "<group>"; };
+		392DF1B61878C013005EF0E9 /* CSDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDataLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				392DF19618783CD5005EF0E9 /* MainMenu.xib */,
 				392DF19918783CD5005EF0E9 /* Images.xcassets */,
 				392DF18818783CD5005EF0E9 /* Supporting Files */,
+				392DF1B51878C013005EF0E9 /* CSDataLoader.h */,
+				392DF1B61878C013005EF0E9 /* CSDataLoader.m */,
 			);
 			path = Simulator;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				392DF19518783CD5005EF0E9 /* CSAppDelegate.m in Sources */,
+				392DF1B71878C013005EF0E9 /* CSDataLoader.m in Sources */,
 				392DF18E18783CD5005EF0E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

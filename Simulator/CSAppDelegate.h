@@ -7,11 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CSDataLoader.h"
 
 @interface CSAppDelegate : NSObject <NSApplicationDelegate>
 {
     IBOutlet NSPathControl *textFilePathControl;
     NSString *path;
+    
     NSMutableArray *deltaXArray;
     NSMutableArray *deltaYArray;
     NSMutableArray *deltaZArray;
@@ -23,6 +25,7 @@
     NSMutableArray *permeabilityZArray;
     NSInteger dimensionValue;
     NSArray *numberOfBlocksArray;
+
 }
 
 @property (assign) IBOutlet NSWindow *window;
